@@ -24,12 +24,20 @@ body{
 	border-right:2px solid;
 	list-style-position: inside;
 }
-#nav ul li:hover{
+#nav ul li a{
+    
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+	list-style-position: inside;
+}
+#nav ul li a:hover{
       color: #FFFFFF;
       background-color: #5555F0;
 	  cursor:pointer;
 }
-#nav .selected{
+#nav .selected a{
     background-color: #5555F0;
 	color: #FFFFFF;
 }
